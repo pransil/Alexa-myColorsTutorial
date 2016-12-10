@@ -1,0 +1,24 @@
+myColorsIntentSchema.json
+//  to be pasted in on 'Intent Schema' box in Interaction Model screen
+//  https://developer.amazon.com/edw/home.html#/skill/create/
+//  (don't paste in the comments!)
+
+{
+  "intents": [
+    {
+      "intent": "MyColorIsIntent",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        }
+      ]
+    },
+    {
+      "intent": "WhatsMyColorIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
