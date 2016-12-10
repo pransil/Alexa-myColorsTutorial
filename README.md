@@ -6,7 +6,8 @@ This was accurate as of 10 Dec 2016. Amazon frequently updates things so things 
 
 If things don't work or are confusing, comment on github and I will try to update and improve.
 
-There are two main phases here. First, I setup a Lambda function to service my app.
+There are two main phases here. First, in steps 1 - 21, I setup a Lambda function to service my app. Steps 22 - 39 are setting up the Alexa Skill that uses the Lambda function.
+
 1. Setup an aws developer account if you don't have one
 2. Go to console.aws.amazon.com/lamda
 3. Use button "Create a Lambda function"
