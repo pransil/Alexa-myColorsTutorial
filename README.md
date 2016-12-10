@@ -52,5 +52,6 @@ createFavoriteColorAttributes
 setColorInSession
 and added a new elseif condition in the onIntent function. Since I reused the colors functions, you can only choose a color for your name. With a bit more work, you can add a new 'Custom Slot Type' and put in a LIST_OF_NAMES. Remember to change the javascript functions to use that.
 The next step would be to add yet another Intent to enable you to ask Alexa what your name is.
+Enjoy!
 
 
