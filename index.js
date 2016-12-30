@@ -16,7 +16,7 @@ function buildSpeechletResponse(title, output, repromptText, shouldEndSession) {
     return {
         outputSpeech: {
             type: 'PlainText',
-            text: output,
+            text: output
         },
         card: {
             type: 'Simple',
